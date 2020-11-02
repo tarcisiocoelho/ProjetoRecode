@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFE9E0;
+}
+
+#lojalogo{
+    margin-top: -95px;
+    margin-left: 50px;
+}
+
+#lojalogo img{
+    width: 70px;
+}
+
+.cabecalho{
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace; 
+    background: rgb(196, 100, 100);
+    padding: 50px;
+        
+}
+
+.link{
+    margin: 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: overline;
+    padding: 5px;
+}
+
+a:hover{
+    color: ivory;
+}
+
+    /* FIM DO CABEÇALHO*/
+
+    
+    /* LISTA CATEGORIA */
+
+#coluna1{
+    width: 200px;
+    height: 1500px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+#categoria{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: overline;
+    background-color: rgba(197, 184, 184, 0.377);
+}
+
+#lista{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+#lista li{
+    padding: 3px;
+    text-align: center;
+    border: 1px solid;
+    margin: 2px;
+    border-style: dotted;
+    background-color: rgba(238, 130, 238, 0.144);
+}
+
+#lista li:hover{
+    background-color: rgba(139, 190, 219, 0.589);
+}
+
+#posicaocoluna{
+    margin-top: 30px;
+    width: 200px;
+}
+
+    /* FIM LISTA DE CATEGORIA */
+
+
+.colunaprodutos{
+    
+    width: 200px;
+    height: 270px;
+    float: left;
+    margin: 80px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.colunaprodutos input{
+    margin: 0px;
+    text-align: center;
+}
+
+.imgproduto{
+    margin: 0px;
+}
+
+
+.texto-produto{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 2px;
+}
+
+.texto-produto h3{
+    font-size: 13px;
+    padding: 0px;
+}
+
+.texto-produto p{
+    color:rgb(0, 0, 0);
+    background-color: rgba(226, 209, 186, 0.575);
+}
+
+.strike{
+    text-decoration: line-through;
+    color: red;
+    font-style: italic;
+    padding: 0px;
+    font-size: 12px;
+}
+
+
+button{
+    padding: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.rodape{
+    clear: both;
+    text-align: center;
+}
+
+
+        /* index */
+
+#texto{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: overline;
+    padding: 5px;
+    background: khaki;
+}
+
+#fundo-texto{
+    background-color: khaki;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.texto-pagina{
+    color: darkcyan;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.coluna{
+    padding: 1px;
+    text-align: center;
+}
+
+.logo{
+    border: 0px double;
+    padding: 50px;
+    width: 75px;
+    margin-top: 30px;   
+    transition: 0.9s;
+}
+
+.logo:hover{
+    background-color: rgba(11, 58, 66, 0.466);
+}
+
+.forma-pagamento{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%
+}
+
+.logofinal{
+    width: 200px;
+}
+
+.descricaopagamento{
+    position: relative;
+    top: 20px;
+    font-size: 15x;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    /* fim index */
+
+
+    /* lojas */
+
+.nossaslojas{
+    border: 2px dashed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding: 50px;
+    
+}
+
+.cidade{
+    padding: 15px;
+    font-family: monospace;
+    font-size: 35px;
+    
+}
+
+.endereco{
+    border: 0px solid;
+    background-color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px; 
+    text-align: center;  
+}
+
+.endereco:hover{
+    color: cornsilk;
+    transition: all 0.9s;
+}
+
+.pagamentos{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+        /* fim lojas */
+
+        /* contatos */
+
+.input{
+    border: 1px dashed;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+form p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+textarea{
+    text-align: center;
+    resize: none;
+    border: 1px dashed rgb(148, 148, 147);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.submit{
+    padding: 10px;
+    font-size: 12px;
+    border: 2px solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.comentarios{
+    border: 1px solid;
+}
+
+        /* fim contatos */
+
+
+          /* pedidos */
+.pedidos{
+    text-align: center;
+    margin: 1em;
+    padding: 50px;
+}
+
+/*.alinhar{
+    border: 1px solid;
+    width: 100%;
+    height: 350px;
+}*/
+
+.alinhar h3{
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+#input{
+    padding: 10px;
+    font-size: 12px;
+    border: 2px solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.alinhar input{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+select{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 15px;
+}
